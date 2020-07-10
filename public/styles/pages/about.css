@@ -1,0 +1,153 @@
+* {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+#wrap {
+    background-image: url("../../images/bgimg.png");
+}
+#hello {
+	width: 100%;
+	height: 370px;
+	background-color: #83A672;
+}
+
+.fig {
+	width: 100px;
+	height: auto;
+	align-content: center;
+	display: block;
+	margin: 0 auto;
+}
+
+.fig img {
+	border-radius: 50%;
+}
+
+#hello h1 {
+	position: relative;
+	overflow: hidden;
+	padding-top: 20px;
+	width: 100%;
+	text-align: center;
+	height: auto;
+	color: #fff;
+	font-family: 'Oxygen', sans-serif;
+	font-weight: bold;
+}
+
+#hello p {
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+	color: #fff;
+	margin-top: 30px;
+}
+#skills, #services {
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: auto;
+	text-align: center;
+}
+#skills {
+	width: 100%;
+	height: 450px;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	/*background-color: #F2F0CE;*/
+	background-image: url("../../images/media/pict1.png");
+	font-family: 'Oxygen', sans-serif;
+}
+
+#skills h1 {
+	color: #F29472;
+}
+
+h1 {
+	font-weight: bold;
+}
+
+#skills li,
+#services li,
+#info li
+ {
+	margin-top: 1.2em;
+}
+
+#services {
+	width: 100%;
+	height: 410px;
+	margin: 0 auto;
+	padding-bottom: 2em;
+	background-color: #F2A950;
+	background-image: url("../../images/media/pict2.png");
+	font-family: 'Oxygen', sans-serif;
+	color: #fff;
+}
+
+span {
+	color: #F29472;
+}
+
+#top {
+	text-align: center;
+}
+
+#info {
+	width: 100%;
+	height: 200px;
+	margin: 0 auto;
+	padding-top: 2em;
+	padding-bottom: 0.5em;
+	font-family: 'Oxygen', sans-serif;
+	text-align: center;
+}
+
+#share {
+	padding-top: 4.5em;
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+	background-color: #F29472;
+}
+.ya-share2_inited {
+	display: flex;
+    justify-content: center;
+    
+}
+.ya-share2__badge {
+	width: 50px;
+	height: 25px;
+    border: solid 1px #fff;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+/*ul.breadcrumb {
+  padding: 10px 16px;
+  list-style: none;
+}
+
+ul.breadcrumb li {
+  display: inline;
+  font-size: 18px;
+}
+
+ul.breadcrumb li+li:before {
+  padding: 8px;
+  color: black;
+  content: "/\00a0";
+}
+
+ul.breadcrumb li a {
+  color: #F29472;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+ul.breadcrumb li a:hover {
+  color: #eb602e;
+  text-decoration: underline;
+}*/
