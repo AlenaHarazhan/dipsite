@@ -18,14 +18,6 @@
                         </div>
                     </div>
 
-                    <!-- <img id="myImg" src='../images/pages/characters/family_s.jpg' alt="Family" style="width:100%;max-width:300px">
-
-                    <div id="myModal" class="modal">
-                        <span class="close">&times;</span>
-                        <img class="modal-content" id="img01">
-                        <div id="caption"></div>
-                    </div> -->
-
                     <div id="img2" class= "window">
                         <div class="overlay">
                             <div class="text">
