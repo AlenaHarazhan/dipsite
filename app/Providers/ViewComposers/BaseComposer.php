@@ -9,6 +9,6 @@ public function compose(View $view){
         $my_arr=explode('/', $my);
         $v_page=end($my_arr);
         $v_pages=Maintext::all();
-$view->with('v_page', $v_page)->with('v_pages', $v_pages);
-}
+        $view->with('v_page', $v_page)->with('v_pages', $v_pages);
+        }
 }

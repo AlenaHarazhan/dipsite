@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Gallery;
+use App\Work;
 
 
 class GalleryController extends Controller
@@ -13,6 +14,7 @@ class GalleryController extends Controller
         $my_arr=explode('/', $my);
         $my_id=end($my_arr);
         $gallerys=Gallery::all();
-        return view('gallery', compact('obj', 'my_id', 'gallerys'));
+        $works=Work::where('gallery_id', $id)->orderBy('id', 'DESC')->paginate(9);
+        return view('gallery', compact('obj', 'my_id', 'gallerys', 'works'));
     }
 }

@@ -38,90 +38,36 @@
     justify-content: center;
     flex-wrap: wrap;
 }
-
-#img1,
-#img2,
-#img3,
-#img4,
-#img5,
-#img6,
-#img7,
-#img8,
-#img9,
-#img10,
-#img11,
-#img12 {
-    width: 30%;
-    height: 400px;
-    background-position: center;
-    background-color: #fff;
-    border: solid;
-    border-radius: 13px;
-    border-color: #BF6B63;
-    margin: 0.6em;
-    background-repeat: no-repeat;
-    background-size: contain;
+#container div {
+    width: 400px;
 }
-
-#img1 {
-    background-image: url('../../images/pages/characters/bel_s.jpg');
-}
-h2 {
-  font-size: 5.5em;
-  color: #83A672;
-  font-weight: bold;
-}
-
-#img2 {
-    background-image: url('../../images/pages/characters/enot_s.jpg');
-}
-
-#img3 {
-    background-image: url('../../images/pages/characters/panda_s.jpg');
-}
-
-#img4 {
-    background-image: url('../../images/pages/characters/kitten_s.jpg');
-}
-
-#img5 {
-    background-image: url('../../images/pages/characters/fox_s.jpg');
-}
-
-#img6 {
-    background-image: url('../../images/pages/characters/granny_s.jpg');
-}
-
-#img7 {
-    background-image: url('../../images/pages/characters/mama_s.jpg');
-}
-
-#img8 {
-    background-image: url('../../images/pages/characters/girl&boy_s.jpg');
-}
-
-#img9 {
-    background-image: url('../../images/pages/characters/merchant_s.jpg');
-}
-
-#img10 {
-    background-image: url('../../images/pages/characters/charfant_s.jpg');
-}
-
-#img11 {
-    background-image: url('../../images/pages/characters/monsters_s.jpg');
-}
-
-#img12 {
-    background-image: url('../../images/pages/characters/family_s.jpg');
+#container img {
+    align-items: center;
 }
 
 
 /* всплывающие окошки на картинках */
-
 .window {
   position: relative;
-  width: 50%;
+  width: 30%;
+  height: 400px;
+  background-position: center;
+  background-color: #fff;
+  border: solid;
+  border-radius: 13px;
+  border-color: #BF6B63;
+  margin: 0.6em;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.window h2 {
+  font-size: 1.2em;
+  margin: 0 auto;
+  color: #83A672;
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+  text-align: center;
 }
 .image {
   display: block;
@@ -141,12 +87,14 @@ h2 {
   transition: .5s ease;
 }
 .window:hover .overlay {
-  height: 50%;
+  height: 60%;
 }
 .text {
   white-space: nowrap;
   color: #000;
-  font-size: 0.8em;
+  font-size: 1.2em;
+  font-family: 'Oxygen', sans-serif;
+  margin-left: 1.5em;
   position: absolute;
   overflow: hidden;
   top: 50%;
@@ -156,46 +104,60 @@ h2 {
 }
 
 
-/* пагинация */
-
-.center {
-    text-align: center;
-}
+/* пагинация*/
 .pagination {
+    width: 100%;
+    margin-left: 33%;
+    margin-top: 3.5em;
     display: inline-block;
-    margin-top: 2.5em;
 }
-.pagination a {
-    color: black;
+nav {
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    list-style-type: none;
+}
+.page-item {
     float: left;
-    padding: 8px 16px;
     text-decoration: none;
+    padding: 8px 16px;
+    margin: 0 4px;
     transition: background-color .3s;
     border: 1px solid #818181;
     border-radius: 5px;
-    margin: 0 4px;
+
 }
-.pagination a.active {
+.page-item:hover {
+    background-color: #fff;
+}
+nav li {
+    list-style-type: none;
+}
+.page-item.active {
+    text-decoration: none;
+    padding: 8px 16px;
     background-color: #F2A950;
     color: white;
+    border-radius: 5px;
+    margin: 0 4px;
     border: 1px solid #d1780c;
 }
-.pagination a:hover:not(.active) {background-color: #fff;}
-
 
 /*кнопки меню*/
 .breadcrumb {
     width: 100%;
     position: relative;
-    float: left;
+    float: right;
     margin-top: 1.3em;
     text-align: center;
+    font-size: 18px;
+    font-family: 'Oxygen', sans-serif;
+
 }
 
 ul.breadcrumb li {
     display: inline-block;
-    font-size: 18px;
-    font-family: 'Oxygen', sans-serif;
+    padding: 0.8em;
 }
 
 ul.breadcrumb li a {
@@ -216,6 +178,8 @@ ul.breadcrumb li a:hover {
 }
 
 #myImg:hover {opacity: 0.7;}
+
+
 
 /*
 .modal {
