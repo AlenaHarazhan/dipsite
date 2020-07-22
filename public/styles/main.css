@@ -16,25 +16,35 @@ header {
     margin: 0 auto;
     background-color: #F2E8B6;
 }
-nav {
-    float: right;
-    width: 23.5em;
-    margin-top: 0.2em;
-    margin-right: 4.5em;
-    font-family: 'Oxygen', sans-serif;
+
+.menu-main {
+  list-style: none;
+  margin-top: 8.5em;
+  text-align: center;
+  font-family: 'Oxygen', sans-serif;
 }
-nav a {
-    color: #83A672;
-    font-weight: bold;
+
+.menu-main li {
+  display: inline-block;
+  font-size: 1.1em;
+  font-weight: bold;
+  margin: 2.5em;
+}
+
+.menu-main a {
+  text-decoration: none;
+  display: inline-block;
+  color: #83A672;
+  transition: .3s linear;
+  position: relative;
 }
 nav a:hover {
     color: #57704b;
 }
+
 .top {
-    height: 12.5em;
+    height: 17.5em;
     overflow: hidden;
-    padding: 10px 0px;
-    margin: 0 0 30px 0;
 }
 
 .logo {
@@ -171,3 +181,5 @@ footer a {
     }
 
 }
+
+

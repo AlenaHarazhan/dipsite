@@ -115,7 +115,7 @@ span {
 .ya-share2_inited {
 	display: flex;
     justify-content: center;
-    
+
 }
 .ya-share2__badge {
 	width: 50px;
@@ -124,30 +124,3 @@ span {
     box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-/*ul.breadcrumb {
-  padding: 10px 16px;
-  list-style: none;
-}
-
-ul.breadcrumb li {
-  display: inline;
-  font-size: 18px;
-}
-
-ul.breadcrumb li+li:before {
-  padding: 8px;
-  color: black;
-  content: "/\00a0";
-}
-
-ul.breadcrumb li a {
-  color: #F29472;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-ul.breadcrumb li a:hover {
-  color: #eb602e;
-  text-decoration: underline;
-}*/

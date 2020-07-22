@@ -1,6 +1,7 @@
 @extends('layouts.base')
 @push('styles')
 <link rel="stylesheet" href="{{asset('styles/pages/characters.css?time='.time())}}" type="text/css" media="all" />
+<link rel="stylesheet" href="{{asset('styles/main.css?time='.time())}}" type="text/css" media="all" />
 @endpush
 @section('content')
 <div id="namegallery">{{$obj->name}}</div>
@@ -23,9 +24,4 @@
         {!!$works->links()!!}
     </div>
 
-<div id="up">
-    <a href="#" onclick="return up()">
-        <img src="../images/up.png">
-    </a>
-</div>
 @endsection
