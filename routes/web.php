@@ -19,4 +19,5 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('gallery/{id}', 'GalleryController@getOne');
+Route::post('ajax', 'AjaxController@postIndex');
 Route::get('{url}', 'BaseController@getUrl');

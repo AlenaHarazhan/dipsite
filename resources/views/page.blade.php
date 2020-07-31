@@ -8,6 +8,7 @@
 <script src="{{asset('https://yastatic.net/share2/share.js')}}"></script>
 @endpush
 @section('content')
+
 <div id='hello'class="class-for-24px">
             <h1>{{$page->name}}</h1>
 

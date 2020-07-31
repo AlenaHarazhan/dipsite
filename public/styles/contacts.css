@@ -4,10 +4,11 @@
 #content {
     width: 100%;
     height: auto;
+    overflow: hidden;
     margin: 0 auto;
     font-family: 'Oxygen', sans-serif;
     background-color: #83A672;
-    text-align: center; 
+    text-align: center;
     padding-bottom: 2em;
 }
 
@@ -27,8 +28,7 @@
     margin: 0 auto;
     font-family: 'Oxygen', sans-serif;
     font-size: 1.5em;
-    text-align: center; 
-    padding-top: 2em;
+    text-align: center;
     padding-bottom: 0px;
 }
 #skype p, #telega p, #mail p {
@@ -39,20 +39,20 @@
 }
 
 #skype {
-    padding-top: 1.3em; 
+    padding-top: 1.3em;
     background-color: #F29472;
     background-size: 110px 110px;
     background-image: url("../images/media/skype.png");
 }
 
 #telega {
-    padding-top: 1.3em; 
+    padding-top: 1.3em;
     background-size: 110px 110px;
     background-image: url("../images/media/telegram.png");
 }
 
 #phone {
-    padding-top: 0.1em; 
+    padding-top: 0.1em;
     background-size: 130px 130px;
     background-image: url("../images/media/phone.png");
 }
@@ -61,7 +61,8 @@
 }
 
 #mail {
-    padding-top: 1.3em; 
+    width: 100%;
+    padding-top: 1.3em;
     background-size: 110px 110px;
     background-image: url("../images/media/mail.png");
     background-color: #F2A950;
@@ -75,9 +76,11 @@
   height: 200px;
   align-content: center;
   margin: 0 auto;
-  
-  background-repeat: no-repeat;     
+  background-repeat: no-repeat;
   background-position: 30%;
   font-size: 1.3em;
   color: #fff;
+}
+#share {
+    background-color: rgb(242, 148, 114, 0);;
 }

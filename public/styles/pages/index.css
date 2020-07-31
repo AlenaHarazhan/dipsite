@@ -101,12 +101,6 @@ ul {
     margin: 1em 0px;
 }
 
-menu,
-ol,
-ul {
-    padding: 0px 0px 0px 40px;
-}
-
 svg:not(:root) {
     overflow: hidden;
 }
