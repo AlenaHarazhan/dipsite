@@ -28,18 +28,21 @@
                 <header>
                     <div class="top">
                         <div class="logo">
-                            <a href="{{asset('/')}}" class="class-for-22px">Alena Harazhan, Illustrator</a>
+                            <a href="{{asset('/')}}" class="class-for-22px">Alena Harazhan</a>
                         </div>
                         <nav>
                          <ul class="menu-main">
+                            <li><a href="/?lang=en">English</a></li>
+                            <li><a href="/?lang=ru">Russian</a></li>
                                 <!-- <li><a href="{{asset('/')}}" class="class-for-22px">Main</a></li> -->
                                 @foreach($v_pages as $one)
                                 @if($one->url==$v_page)
-                                <li>{{$one->name}}</li>
+                                <li>{{__('menu.gallerys.'.$one->name)}}</li>
                                 @else
-                                <li><a href="{{asset($one->url)}}" class="class-for-22px">{{$one->name}}</a></li>
+                                <li><a href="{{asset($one->url)}}" class="class-for-22px">{{__('menu.gallerys.'.$one->name)}}</a></li>
                                 @endif
                                 @endforeach
+                                <li><a href="{{asset('gallerys')}}" class="class-for-22px">Gallery</a></li>
                             </ul>
                         </nav>
                     </div>

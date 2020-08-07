@@ -13,11 +13,15 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/','BaseController@getIndex');
+Route::group(['middleware'=>['lang']], function(){
+    Route::get('/','BaseController@getIndex');
+});
+Route::get('gallerys', 'GalleryController@getAll');
 
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('gallery/{id}', 'GalleryController@getOne');
 Route::post('ajax', 'AjaxController@postIndex');
+
 Route::get('{url}', 'BaseController@getUrl');

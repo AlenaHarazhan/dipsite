@@ -40,16 +40,16 @@
     </div>
 </div>
 <hr class="hr-shelf2">
-<div id="namegallery">Gallery</div>
+<div id="namegallery">{{__('menu.gallerys.Gallery')}}</div>
 <section class="main">
     <ul class="ch1-grid">
         @foreach($gallerys as $one)
         <li>
             <div class="ch1-item" style = "background-image: url('/images/{{$one->picture}}')">
                 <div class="ch1-info">
-                    <h3>{{$one->name}}</h3>
+                    <h3>{{__('menu.gallerys.'.$one->name)}}</h3>
                     <p>
-                        <a href="{{asset('gallery/'.$one->id)}}">Look at</a>
+                        <a href="{{asset('gallery/'.$one->id)}}">{{__('menu.gallerys.Look at')}}</a>
                     </p>
                 </div>
             </div>

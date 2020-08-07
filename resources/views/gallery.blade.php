@@ -11,17 +11,17 @@
 <script src="{{asset('script/modal.js')}}"></script>
 @endpush
 @section('content')
-<div id="namegallery">{{$obj->name}}</div>
+<div id="namegallery">{{__('menu.gallerys.'.$obj->name)}}</div>
 @include('includes.gallery_breadcrumbs')
 <div id="container">
     @foreach($works as $work)
     <div class = "window" style="background-image: url({{asset('images/pages/'.$obj->name.'/s_'.$work->picture)}})">
         <div class="overlay">
+            <a href="#" class="open" data-id="{{$work->id}}">{{__('menu.gallerys.Zoom')}}</a>
             <div class="text">
-                <a href="#" class="open" data-id="{{$work->id}}">Открыть</a>
-                <h2 class="class-for-28px">{{$work->name}}</h2>
-                <p class="class-for-22px">Style: {{$work->style}}</p>
-                <p class="class-for-22px">Technique: {{$work->technique}}</p>
+                <h2 class="class-for-28px">"{{__('menu.gallerys.'.$work->name)}}"</h2>
+                <p class="class-for-22px"><span>{{__('menu.gallerys.Style')}}:</span> {{__('menu.gallerys.'.$work->style)}}</p>
+                <p class="class-for-22px"><span>{{__('menu.gallerys.Technique')}}:</span> {{__('menu.gallerys.'.$work->technique)}}</p>
             </div>
         </div>
     </div>

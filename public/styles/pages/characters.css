@@ -47,6 +47,7 @@
 
 
 /* всплывающие окошки на картинках */
+
 .window {
   position: relative;
   width: 30%;
@@ -60,14 +61,34 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
-
+.window p {
+    font-size: 1.2em;
+}
 .window h2 {
-  font-size: 1.2em;
+  font-size: 1.5em;
   margin: 0 auto;
   color: #83A672;
   font-weight: bold;
   font-family: 'Oxygen', sans-serif;
-  text-align: center;
+}
+.window a {
+    text-decoration: none;
+    position: relative;
+    float: right;
+    font-size: 1.2em;
+    margin: 0.8em;
+    color: #444444;
+    border-radius: 10%;
+    padding: 0.2em;
+    background: rgba(255, 250, 205, 0.9);
+    border: 1px solid #BF6B63;
+}
+.window a:hover {
+    color: #A52A2A;
+}
+span {
+    color: #BF6B63;
+    font-weight: bold;
 }
 .image {
   display: block;
@@ -123,16 +144,16 @@ nav {
     padding: 8px 16px;
     margin: 0 4px;
     transition: background-color .3s;
-    border: 1px solid #818181;
+    border: 1px solid #818181 !important;
     border-radius: 5px;
 
 }
 .page-item:hover {
     background-color: #fff;
-    color: #000;
+    color: #000 !important;
 }
 .page-item a:visited {
-    color: #000;
+    color: #000 !important;
 }
 nav li {
     list-style-type: none;
@@ -146,6 +167,10 @@ nav li {
     margin: 0 4px;
     border: 1px solid #d1780c;
 }
+.page-link {
+    text-decoration: none;
+    color: white !important;
+}
 
 /*кнопки меню*/
 .breadcrumb {
@@ -156,7 +181,6 @@ nav li {
     text-align: center;
     font-size: 18px;
     font-family: 'Oxygen', sans-serif;
-
 }
 
 ul.breadcrumb li {
@@ -181,7 +205,7 @@ ul.breadcrumb li a:hover {
   transition: 0.3s;
 }
 
-#myImg:hover {opacity: 0.7;}
+#myImg:hover {opacity: 0.8;}
 
 
 

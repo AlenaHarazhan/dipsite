@@ -10,14 +10,14 @@
 @section('content')
 
 <div id='hello'class="class-for-24px">
-            <h1>{{$page->name}}</h1>
+            <h1>{{__('menu.gallerys.'.$page->name)}}</h1>
 
-            <p>{{$page->smallbody}}</p>
+            <p>{{$smallbody}}</p>
 
             <figure class="fig">
                 <img src="{{asset('images/'.$page->picture)}}" alt="logo">
             </figure>
         </div>
-    {!!$page->body!!}
+    {!!$body!!}
 
 @endsection

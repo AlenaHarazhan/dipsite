@@ -1,17 +1,17 @@
 .modal-window{
-  position:fixed;
-  top:5em;
-  left:50%;
-  width:600px;
+  position: fixed;
+  top: 5em;
+  left: 50%;
+  width: 600px;
   height: 600px;
   overflow: hidden;
-  margin-left:-300px;
-  padding:10px;
-  border:solid 1px #ccc;
-  background:white;
-  border-radius:6px;
-  box-shadow:1px 1px 1px black;
-  z-index:99;
+  margin-left: -300px;
+  padding: 10px;
+  border: solid 1px #ccc;
+  background: white;
+  border-radius: 6px;
+  box-shadow: 1px 1px 1px black;
+  z-index: 99;
 }
 .modal-window div {
   height: 600px;
@@ -20,27 +20,33 @@
   background-position: center;
 }
 .modal-close{
-  position:absolute;
-  top:1px;
-  right:1px;
-  margin:0;
-  padding:0;
-  text-decoration:none;
-  color:red;
-  font-size:18px;
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
 }
 .modal-close:before{
-  position:relative;
-  top:-1px;
-  content:"Close";
-  font-size:12px;
+    position: relative;
+    float: left;
+    font-size: 1.1em;
+    margin: 0.8em;
+    color: #808080;
+    border-radius: 10%;
+    padding: 0.2em;
+    background: rgba(255, 250, 205, 0.8);
+    border: 1px solid #BF6B63;
+    content:"Close";
  }
 #overlay{
-  background:black;
-  opacity: 0.7;
-  position:fixed;
-  height:100%;
-  width:100%;
-  left:0;
-  top:0;
+  background: black;
+  opacity: 0.6;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
  }

@@ -17,4 +17,8 @@ class GalleryController extends Controller
         $works=Work::where('gallery_id', $id)->orderBy('id', 'DESC')->paginate(9);
         return view('gallery', compact('obj', 'my_id', 'gallerys', 'works'));
     }
+    public function getAll() {
+        $objs=Gallery::All();
+        return view('gallerys', compact('objs'));
+    }
 }

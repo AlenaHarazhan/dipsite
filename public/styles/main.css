@@ -58,8 +58,8 @@ nav a:hover {
     background-position: center;
     background-repeat: no-repeat;
     float: left;
-    width: 14em;
-    height: 14em;
+    width: 13em;
+    height: 13em;
     margin-top: 2.8em;
     margin-left: 10.5em;
     font-family: 'Oxygen', sans-serif;
@@ -73,8 +73,13 @@ nav a:hover {
     background-image: url(../../images/mylogo2.png);
 }
 
-a {
-    text-decoration: none;
+.logo a {
+   display: block;
+   margin-top: 9.5em;
+   border-radius: 50%;
+   background: rgba(255,255,255, 0.9);
+   text-decoration: none;
+   font-size: 1.2em;
 }
 .logo a:visited {
     color: #BF6B63;
