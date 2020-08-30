@@ -2,7 +2,7 @@
 return [
 'gallerys' => [
 'Characters' => 'Characters',
-'Illustrations' => 'Illustrators',
+'Illustrations' => 'Illustrations',
 'Logos' => 'Logos',
 'Icons' => 'Icons',
 'Colorings' => 'Colorings',
@@ -13,6 +13,7 @@ return [
 'About' => 'About',
 'Contacts' => 'Contacts',
 'Gallery' => 'Gallery',
+'Look at' => 'Look at',
 'Name' => 'Name',
 'Technique' => 'Technique',
 'Style' => 'Style',
@@ -86,7 +87,8 @@ return [
 'Kolobok' => 'Kolobok',
 'Chicken Riaba' => 'Chicken Riaba',
 'Origami Fox' => 'Origami Fox',
-'Gallery of Style' => 'Gallery of Style',
+'Gallery of Style 1' => 'Gallery of Style 1',
+'Gallery of Style 2' => 'Галерея Стиля 2',
 'Important' => 'Important',
 'Incognito' => 'Incognito',
 'Phone call' => 'Phone call',

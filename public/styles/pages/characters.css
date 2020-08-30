@@ -11,25 +11,6 @@
     float: left;
 }
 
-#namegallery {
-    position: relative;
-    float: left;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    font-size: 100px;
-    font-family: 'Sigmar One', cursive;
-    color: #BF6B63;
-    margin-bottom: 20px;
-    margin-top: 0.5em;
-}
-
-#namegallery:hover {
-    -webkit-transform: scale(1.2);
-    -ms-transform: scale(1.2);
-    transform: scale(1.2);
-}
-
 #container {
     width: 90vw;
     height: 100%;
@@ -69,7 +50,7 @@
   margin: 0 auto;
   color: #83A672;
   font-weight: bold;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Comfortaa', cursive;
 }
 .window a {
     text-decoration: none;
@@ -114,7 +95,7 @@ span {
   white-space: nowrap;
   color: #000;
   font-size: 1.2em;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Comfortaa', cursive;
   margin-left: 1.5em;
   position: absolute;
   overflow: hidden;
@@ -180,7 +161,7 @@ nav li {
     margin-top: 1.3em;
     text-align: center;
     font-size: 18px;
-    font-family: 'Oxygen', sans-serif;
+    font-family: 'Comfortaa', cursive;
 }
 
 ul.breadcrumb li {

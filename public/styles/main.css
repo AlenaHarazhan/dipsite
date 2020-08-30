@@ -8,7 +8,6 @@
 body {
     width: 100%;
     height: auto;
-
 }
 #wrap {
     overflow: hidden;
@@ -19,19 +18,43 @@ header {
     width: 100%;
     height: auto;
 }
+#lang {
+  list-style: none;
+  position: relative;
+  float: right;
+  margin: 4em;
+  font-family: 'Comfortaa', cursive;
+
+}
+#lang li {
+  display: inline-block;
+
+}
+#lang a {
+  text-decoration: none;
+  margin-left: 2em;
+  color: #D18C8C;
+}
+#lang a:hover {
+  color: #AD3333;
+}
 
 .menu-main {
   list-style: none;
-  margin-top: 8.5em;
+  margin-top: 1.5em;
   text-align: center;
-  font-family: 'Oxygen', sans-serif;
+  font-family: 'Comfortaa', cursive;
+  margin-top: 12.5em;
+  margin-right: 0.5em;
 }
 
 .menu-main li {
+  position: relative;
+  float: right;
   display: inline-block;
   font-size: 1.1em;
   font-weight: bold;
-  margin: 2.5em;
+  margin: 1.5em;
 }
 
 .menu-main a {
@@ -62,8 +85,8 @@ nav a:hover {
     height: 13em;
     margin-top: 2.8em;
     margin-left: 10.5em;
-    font-family: 'Oxygen', sans-serif;
     font-size: 1.2em;
+    font-family: 'Comfortaa', cursive;
     font-weight: bold;
     color: #BF6B63;
     text-align: center;
@@ -84,6 +107,7 @@ nav a:hover {
 .logo a:visited {
     color: #BF6B63;
 }
+
 footer {
     margin-top: 5.5em;
 }

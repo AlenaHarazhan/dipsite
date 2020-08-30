@@ -40,12 +40,12 @@
 	text-align: center;
 	height: auto;
 	color: #fff;
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	font-weight: bold;
 }
 
 #hello p {
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	text-align: center;
 	color: #fff;
 	margin-top: 30px;
@@ -63,7 +63,7 @@
 	padding-bottom: 2em;
 	/*background-color: #F2F0CE;*/
 	background-image: url("../../images/media/pict1.png");
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Comfortaa', cursive;
 }
 
 #skills h1 {
@@ -88,7 +88,7 @@ h1 {
 	padding-bottom: 2em;
 	background-color: #F2A950;
 	background-image: url("../../images/media/pict2.png");
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	color: #fff;
 }
 
@@ -106,7 +106,7 @@ span {
 	margin: 0 auto;
 	padding-top: 2em;
 	padding-bottom: 0.5em;
-	font-family: 'Oxygen', sans-serif;
+	font-family: 'Comfortaa', cursive;
 	text-align: center;
 }
 
