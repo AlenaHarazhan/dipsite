@@ -109,9 +109,9 @@ span {
 /* пагинация*/
 .pagination {
     width: 100%;
-    margin-left: 33%;
     margin-top: 3.5em;
-    display: inline-block;
+    display: flex;
+    justify-content: center;
 }
 nav {
     width: 100%;
@@ -120,14 +120,12 @@ nav {
     list-style-type: none;
 }
 .page-item {
-    float: left;
     text-decoration: none;
     padding: 8px 16px;
     margin: 0 4px;
     transition: background-color .3s;
     border: 1px solid #818181 !important;
     border-radius: 5px;
-
 }
 .page-item:hover {
     background-color: #fff;
@@ -152,6 +150,7 @@ nav li {
     text-decoration: none;
     color: white !important;
 }
+
 
 /*кнопки меню*/
 .breadcrumb {
